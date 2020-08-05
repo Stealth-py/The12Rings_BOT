@@ -2,9 +2,9 @@ import discord  # import the "discord" module
 import login_webcrawler_12r
 from discord.ext import commands
 
-# token = 'NzM3NjM3NzAxMjU5NDkzMzc2.XyAQpA.hGN_xBipad9Idofq9t5Ii-UggFM'   copy your bot's token from your discord dev
+# token = '<your token>'   copy your bot's token from your discord dev
 # portal and paste it here
-token = 'NzQwMjk0MzU5MzI4NzUxNzY2.Xym62Q.Q4PMJzVh5keLOybHGDmQ0TAtulA'
+token = '<token>'
 
 something = commands.Bot(command_prefix='12')
 
