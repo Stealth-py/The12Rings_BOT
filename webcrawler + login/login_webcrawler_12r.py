@@ -8,7 +8,7 @@ def lead_webcr(usr_id):
     page = '/login'
     url = link_cr + page
     credentials = {                                                              # enter your credentials, which you are going to push to the site to get to the leaderboard
-        'email': '<username>',                           # enter username
+        'username': '<username>',                           # enter username
         'password': '<password>'                                  # enter password
     }
     text = ''
