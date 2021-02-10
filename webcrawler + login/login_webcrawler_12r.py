@@ -8,8 +8,8 @@ def lead_webcr(usr_id):
     page = '/login'
     url = link_cr + page
     credentials = {                                                              # enter your credentials, which you are going to push to the site to get to the leaderboard
-        'username': '<username>',                           # enter username
-        'password': '<password>'                                  # enter password
+        'email': '<you-email-id>',                           # enter username
+        'password': '<your-password>'                                  # enter password
     }
     text = ''
     res = []
@@ -20,7 +20,7 @@ def lead_webcr(usr_id):
         plaintext = source.text                                   # extract the source code of that page
         bsoup = BeautifulSoup(plaintext, features="html.parser")       # this object represents the parsed plaintext as html
         f = open("bruh.txt", "w")                                 # open a text file, where the program will save the data about the user's lvl
-        for data_lead in bsoup.findAll(attrs={'id': 'tableData'}):         # find the leaderboard data from the source code 
+        for data_lead in bsoup.findAll(attrs={'id': 'tableData'}):         # find the leaderboard data from the source code
             text += str(data_lead)
         text = text.replace('<div id="tableData" style="display:none;">[', '')       # removing the unnecessary commands from the text
         text = text.replace(']</div>', '')
