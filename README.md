@@ -1,4 +1,8 @@
-# The 12 Rings Bot for moderation of the Official The12Rings Players Lounge on Discord.
+# The 12 Rings Bot
+
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+
+This bot was made specifically for the moderation and for providing privacy to the players in higher levels of the game in The 12 Rings Players Lounge's official discord server.
 
 ## WORKING
 
